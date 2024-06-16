@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu-header nav ul{
+    display: flex;
+    gap: 30px;
+}
+.menu-header nav ul li{
+    padding: 15px;
+}
+.menu-header nav ul li:hover{
+    background-color: #F6F6F6;
+    border: none;
+    border-radius: 11px;
+    padding: 15px;
+}
+.menu-header nav ul li a{
+    color: black;
+    font-size: 20px;
+}
+.header-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.logo{
+    width: 165px;
+    height: 36px;
+}
+.bttn{
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #939393;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+}
+.bttn:hover{
+    background-color: black;
+    color: white;
+    transition: all .5s;
+}
+.photo1-page-mother{
+    background-image: url(https://avada.com/wp-content/uploads/2022/10/avada-professional-hosting-intro.jpg);
+    width: 680.65px;
+    height: 542.67px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.home-page{
+    display: flex;
+}
+.text-page-mother{
+    background-color: #FFE979;
+    width: 838.64px;
+    height: 542.67px;
+}
+.text-page-mother p{
+    white-space: nowrap;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.text-part{
+    padding: 100px;
+}
+.text-part h4{
+    line-height: 50px;
+}
+.text-part h2{
+    font-size: 40px;
+}
+.button-home button{
+    border: none;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.button-home{
+    padding-top: 40px;
+}
+.website-build{
+    display: flex;
+    margin: 100px;
+}
+.text-page-build-part{
+    width: 732.48px;
+    height: 549.29px;
+    padding: 30px 0;
+}
+.text-page-build-part h2{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+.text-page-build-part h5{
+    color: #616162;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.image-part-build-part{
+    background-image: url(https://avada.com/wp-content/uploads/2021/07/home-hero-20@2x.jpg);
+    height: 773.16px;
+    width: 1382.1px;
+    background-size: cover;
+    object-fit: cover;
+}
+.text-page-build-part button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    width: 227px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.line-build-page{
+    padding-top: 100px;
+}
+.static-build-page{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.static-build-page span{
+    color: #9DA4A8;
+    font-size: 15px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+.about-end-part{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px;
+    align-items: center;
+}
+.menu-end-part{
+    display: flex;
+}
+.menu-end-part div{
+    margin-inline: 100px;
+}
+.menu-end-part div nav ul li a{
+    color: white;
+}
+.form-end{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 9px;
+}
+.form-input1{
+    display: flex;
+    text-align: center;
+    height: 40px;
+    border-radius: 9px;
+    border: none;
+}
+.form-input2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 60px;
+    border: none;
+    border-radius: 9px;
+}
+.form-input2:hover{
+    background-color: lightgreen;
+    border: 2px solid black;
+}
+.end-footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.text-end{
+    position: absolute;
+    left: 20px;
+}
+.social i{
+    background-color: white;
+    background-size: cover;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+.social i:hover{
+    background-color: green;
+    padding: 10px;
+}
+.social{
+    position: absolute;
+    right: 20px;
+
+}
